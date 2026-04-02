@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AT&T MPLS Network Engineer — Portfolio</title>
+<title>Osvaldo Grano — AT&T MPLS Network Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
@@ -65,6 +65,19 @@
   .nav-links { display: flex; gap: 28px; }
   .nav-links a { font-family: var(--mono); font-size: 12px; color: var(--muted); text-decoration: none; letter-spacing: 0.04em; transition: color 0.2s; }
   .nav-links a:hover { color: var(--accent); }
+  .nav-name { font-family: var(--mono); font-size: 13px; color: var(--text); letter-spacing: 0.03em; }
+  .nav-name span { color: var(--accent); }
+  .contact-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+  .contact-link {
+    display: flex; align-items: center; gap: 8px;
+    font-family: var(--mono); font-size: 12px; color: var(--muted);
+    text-decoration: none; letter-spacing: 0.04em;
+    padding: 8px 16px; border-radius: 4px;
+    border: 1px solid var(--border-mid);
+    transition: all 0.2s;
+  }
+  .contact-link:hover { color: var(--accent); border-color: rgba(0,200,160,0.4); background: rgba(0,200,160,0.05); }
+  .contact-icon { font-size: 14px; }
 
   /* SECTIONS */
   section { position: relative; z-index: 1; }
@@ -315,23 +328,34 @@
 
 <nav>
   <span class="nav-logo">AT&amp;T_MIS // MPLS</span>
-  <div class="nav-links">
-    <a href="#customers">Customers</a>
-    <a href="#cases">Case Studies</a>
-    <a href="#backbone">Backbone</a>
-    <a href="#lab">EVE-NG Lab</a>
+  <div style="display:flex; align-items:center; gap:28px;">
+    <span class="nav-name">Osvaldo Grano <span>"Oz"</span></span>
+    <div class="nav-links">
+      <a href="#customers">Customers</a>
+      <a href="#cases">Case Studies</a>
+      <a href="#backbone">Backbone</a>
+      <a href="#lab">EVE-NG Lab</a>
+    </div>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-eyebrow">IP / MPLS Network Engineer</div>
-  <h1>AT&T Managed<br>Internet Services —<br><span>MPLS Portfolio</span></h1>
+  <h1>Osvaldo Grano<br><span style="font-size:0.65em; color: var(--muted); font-family: var(--mono); font-weight:400;">"Oz"</span><br><span>AT&T MIS — MPLS</span></h1>
   <p class="hero-sub">
     Tier 3 network engineer supporting enterprise MPLS WANs over AT&T's backbone
     infrastructure. Operated across CPE, PE, PER, and P core routers for some of
     the most regulated and mission-critical organizations in the country.
   </p>
+  <div class="contact-row">
+    <a class="contact-link" href="https://www.linkedin.com/in/osvaldo-grano" target="_blank">
+      <span class="contact-icon">in</span> linkedin.com/in/osvaldo-grano
+    </a>
+    <a class="contact-link" href="mailto:osvaldogranotech@gmail.com">
+      <span class="contact-icon">@</span> osvaldogranotech@gmail.com
+    </a>
+  </div>
   <div class="hero-tags">
     <span class="tag tag-green">MPLS / L3VPN</span>
     <span class="tag tag-green">LDP / RSVP-TE</span>
@@ -643,8 +667,10 @@
 </section>
 
 <footer>
-  <span class="footer-note">// AT&T MIS — MPLS Network Engineer Portfolio</span>
+  <span class="footer-note">// Osvaldo Grano "Oz" — AT&T MIS MPLS Network Engineer</span>
   <div class="footer-links">
+    <a href="https://www.linkedin.com/in/osvaldo-grano" target="_blank">LinkedIn</a>
+    <a href="mailto:osvaldogranotech@gmail.com">Email</a>
     <a href="#customers">Customers</a>
     <a href="#cases">Cases</a>
     <a href="#lab">Lab</a>
